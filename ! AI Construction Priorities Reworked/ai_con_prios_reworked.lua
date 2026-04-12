@@ -6,7 +6,6 @@ local modSettings = {
      enable_Dismantle_Growth = true
 }
 
-
 local regions = { "wh3_main_combi_region_couronne", "wh3_main_combi_region_miragliano",
      "wh3_main_combi_region_bordeleaux", "wh3_main_combi_region_lyonesse", "wh3_main_combi_region_copher",
      "wh3_main_combi_region_zandri", "wh3_main_combi_region_castle_carcassonne", "wh3_main_combi_region_castle_artois" }
