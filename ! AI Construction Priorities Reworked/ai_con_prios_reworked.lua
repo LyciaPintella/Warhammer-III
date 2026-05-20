@@ -19,7 +19,8 @@ local function add_building(slot)
 end
 
 local function remove_barracks(region_key)
-     out("Calling function remove_barracks " .. "")
+    out("Calling function remove_barracks " .. "")
+	---@diagnostic disable-next-line: redundant-parameter
      local region = cm:get_region(region_key)
      local slot_list = region:settlement():slot_list()
      if cm:is_new_game() then
@@ -37,7 +38,8 @@ local function remove_barracks(region_key)
 end
 
 local function remove_barracks_add_stables(region_key)
-     out("Calling function remove_barracks_add_stables " .. "")
+    out("Calling function remove_barracks_add_stables " .. "")
+	---@diagnostic disable-next-line: redundant-parameter
      local region = cm:get_region(region_key)
      local slot_list = region:settlement():slot_list()
      if cm:is_new_game() then
